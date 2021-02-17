@@ -2,54 +2,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
- .myDiv {
-         border: 1px outset black;
-         background-color: white;
-         text-align: center;
-        }
-  .myDiv2 {margin-top:25%; 
-          border: 1px outset black;
-          background-color: white;
-          text-align: center;
-         }
- .split {
-         border: 1px outset black;
-         background-color: white;              
-         position: absolute;
-         padding-top: 20px;
-        }
-  .left {margin-left: 1.3%;
-         left: 0;height: 50%;  
-         width: 47.5%;
-         background-color:white;
-         text-align: left;
-        }
- .right {margin-right: 1.3%;
-         right: 0;height: 50%;  
-         width: 49.5%;
-         background-color: white;
-         text-align: left;
-        }
-   .left1 {margin-left: 1.3%;
-         left: 0;height: 18%;  
-         width: 47.5%;
-         background-color:white;
-         text-align: left;
-        }
- .right1 {margin-right: 1.3%;
-         right: 0;height: 18%;  
-         width: 49.5%;
-         background-color: white;
-         text-align: left;
-        }
- 
-       
-
-       
-
-          
-</style>
 <body style="background-color:lightblue;">
  <div class="myDiv">
   <h1 style= " color:#f94279">IPL FINAL-2020-MATCH SUMMARY</h1>
