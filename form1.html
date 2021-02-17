@@ -1,0 +1,84 @@
+<html>
+<head>
+<style>
+ .myDiv {
+        border: 4px outset red;
+        background-color: DodgerBlue;
+        text-align: center;
+        width: 50%;
+        margin-left: 20%
+       }
+ .mydiv2{
+         border: 4px outset red;
+         background-color: lightblue;
+         text-align: center;
+         width: 50%;
+         margin-left: 20%
+        }
+ .mydiv3{
+         border: 4px outset red;
+         background-color: DodgerBlue;
+         text-align: center;
+         width: 50%;
+         margin-left: 20%
+        }
+</style>
+</head>
+<body>
+ 
+  <div class="myDiv">
+    <h2>Player Details</h2>
+  </div>
+  <br>
+  <div class= "mydiv2" >
+  <br>
+    <form><table margin-left: 30%;>
+      <tr><td><label for ="fname"> Name:</label></td>
+      <td><input type="text" autofocus required= required placeholder="Enter your name"></td>
+     <tr><td> <label for="date of birth">Birthday:</label></td>
+     <td> <input type="date" id="birthday" name="birthday"></td>
+     <tr><td><label for="age">Age:</label></td>
+      <td><input type="number" autofocus required=required placeholder="Enter your age"></td>
+      <tr><td><label for="email">Email: </label></td>
+      <td><input type="email" autofocus required=required placeholder=" Enter your email"></td>
+      
+     <tr><td> Country:</td> <td><select id="country"  name="country" required=required placeholder="Fill your coutry">
+        <option value="Select">Select</option>
+        <option value="Afganistan">Afghanistan</option>
+        <option value="India">India</option>
+        <option value="Pakistan">Pakistan</option>
+        <option value="Nepal">Nepal</option>
+        <option value="Bhutan">Bhutan</option>
+        <option value="Bangladesh">Bangladesh</option>
+        <option value="Myanmar">Myanmar</option>
+      </select></td>
+      
+      <tr><td> Skills:</td><td><input type="checkbox" id="Batting" name="Batting" ></td><td><label for="Batting">Batting</label></td><td><input type="checkbox" id="Bowling" name="Bowling"></td><td><label for="Bowling">Bowling</label> </td>
+      <tr><td>Bat Style:</td><td><input type="checkbox" id="Righthanded " name="Righthanded" ></td><td><label for="Righthanded">Righthanded</label></td>
+      <td><input type="checkbox" id="Lefthanded" name="Lefthanded" ></td> <td><label for="Lefthanded">Lefthanded</label></td>
+      <tr><td>Bowl Style:</td><td><input type="checkbox" name="Righthanded" ></td>
+      <td><label for="Righthanded">Righthanded</label></td>
+      <td><input type="checkbox" id="Lefthanded" name="Lefthanded" ></td>
+      <td><label for="Lefthanded">Lefthanded</label> </td></tr>
+
+      <tr><td><label for="Matches">Matches:</label></td>
+      <td><input type="number" autofocus required=required placeholder="Matches played "></td><tr>
+      <tr><td><label for="Runs">Age:  </label></td>
+      <td><input type="number" autofocus required=required placeholder="Total runs scored "></td><tr>
+      <tr><td><label for="Wickets">Wickets: </label></td>
+      <td><input type="number" autofocus required=required placeholder="Wickets"></td>
+      <tr><td><label for="Achievements">Achievements: </label></td>
+      <td><textarea id="=Achievements" name="Achievements" rows="4" cols="50" autofocus required=required placeholder="Your achievements in cricket">
+      </textarea>
+    </table>
+    </form>
+    </div>
+    <br>
+    <div class="mydiv3"> 
+      <br><br>
+      <form action="index.html">
+        <input type="button" value="submit">
+      </form>
+    </div>
+</body>
+</html>
