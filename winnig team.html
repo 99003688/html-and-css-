@@ -1,0 +1,57 @@
+<html>
+<head>
+    
+<style>
+.myDiv {
+  border: 5px outset rgb(0, 0, 0);
+  background-color: rgb(233, 187, 225);
+  text-align: center;
+  height: 60%;
+  width: 50%;
+  margin-left: 30%;
+}
+</style>
+<script>
+     
+    function getscore(){
+        var x=document.forms["form"]["Score4"].value;
+        var y=document.forms["form"]["Score5"].value;
+        var z= document.forms["form"]["Score"].value;
+        var w= document.forms["form"]["Score1"].value;
+        if(x>y){
+            document.getElementById("one").innerHTML=z;
+        }
+        else{
+            document.getElementById("one").innerHTML=w;
+        
+        }
+    }
+    
+
+
+</script>
+<body>
+
+    <div class="myDiv">
+        <form name="form" onsubmit="getscore(); return false;">
+        <h2>Match Summary </h2><br>        
+            <label for="Score details">Team A: </label>
+            <input type="text" name="Score" autofocus required><br><br>
+            <label for="Score details">Team B:</label>
+            <input type="text" name="Score1" autofocus required><br><br>
+            <label for="date">Date :</label>
+            <input type="date" name="Score2" autofocus required><br><br>
+            <label for="time">Time:</label>
+            <input type="time" name="Score3" autofocus required><br><br>
+            <label for="Score details">Team A Score :</label>
+            <input type="text" name="Score4" autofocus required><br><br>
+            <label for="Score details">Team B Score :</label>
+            <input type="text" name="Score5" autofocus required><br><br>
+            <input type="submit" value= "Save">
+            <h3 style="text-align: center; margin-left:10%;">Winning Team : </h3>    
+            <h3 style="text-align: center;" id="one"> </h3>
+        </form>
+    </div>
+     
+    </body>
+    </html>
